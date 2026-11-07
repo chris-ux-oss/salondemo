@@ -221,7 +221,7 @@ footer nav a {
   overflow: hidden;
   isolation: isolate;
   background: var(--ivory);
-  background-color: #efdda1;
+  background-color: #eedb9f;
 }
 
 .hero-photo {
@@ -331,6 +331,7 @@ footer nav a {
 /* STUDIO SECTION */
 .studio {
   background: #E9DED1;
+  background-color: #f7efd6;
   padding: 55px 5%;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -425,7 +426,8 @@ footer nav a {
 /* SERVICES */
 
 .services {
-  background: #F4EEE8;
+  background: #fdebaf;
+  background-color: #E9DED1;
 }
 
 .head {
@@ -524,7 +526,7 @@ footer nav a {
 
 .gallery {
   background: #F1E8E1;
-  background-color: #faecbc;
+  background-color: #d3ceb9;
 }
 
 .grid {
@@ -690,6 +692,7 @@ footer nav a {
   grid-template-columns: 1fr 1fr;
   gap: clamp(2rem,6vw,5rem);
   background: #F4EEE8;
+  background-color: #c7bea0;
   align-items: start;
 }
 
@@ -1324,6 +1327,7 @@ section {
 
 .about {
   padding: 55px 5%;
+  background-color: #f9f3dd;
 }
 
 .services {
@@ -1477,7 +1481,6 @@ section {
 .reveal {
   opacity: 0;
   transform: translateY(30px);
-  filter: blur(1px);
   transition:
     opacity .9s ease,
     transform .9s cubic-bezier(.2,.7,.2,1),
