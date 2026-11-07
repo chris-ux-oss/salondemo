@@ -1,0 +1,497 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F8F4EF">
+  <meta name="description" content="LUMIÈRE Beauty Studio — luxury hair, makeup, nails and bridal beauty.">
+  <title>LUMIÈRE Beauty Studio | Luxury Beauty</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="nav" id="nav">
+  <a class="logo" href="#home">LUMIÈRE</a>
+
+  <button class="burger" id="burger" aria-label="Open navigation menu"
+    aria-expanded="false" aria-controls="menu">
+    <span></span><span></span>
+  </button>
+
+  <nav id="menu" aria-label="Main navigation">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#studio">Our Studio</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn-gold" href="#contact">Book an Appointment</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+
+  <div class="hero-photo">
+    <img
+      src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1800&q=85"
+      alt="Professional beauty and hair styling"
+      fetchpriority="high">
+  </div>
+
+  <div class="hero-copy reveal">
+    <span class="eyebrow">LUXURY BEAUTY STUDIO</span>
+    <h1>Beauty is an experience.</h1>
+    <p>Discover a place where creativity, confidence, and exceptional beauty come together.</p>
+
+    <div class="actions">
+      <a class="btn btn-dark" href="#services">Explore Our Services</a>
+      <a class="btn btn-ghost" href="#contact">Book Your Experience</a>
+    </div>
+  </div>
+
+ 
+
+  <span class="hero-label">BEAUTY · ART · CONFIDENCE</span>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section class="about split" id="about">
+
+  <div class="photo tall reveal">
+    <img
+      src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1100&q=85"
+      alt="Elegant beauty salon interior"
+      loading="lazy">
+  </div>
+
+  <div class="reveal">
+    <span class="eyebrow">THE LUMIÈRE EXPERIENCE</span>
+    <h2>More Than Beauty. It's Your Moment.</h2>
+
+    <p>
+      At Lumière Beauty Studio, we believe beauty is personal.
+      Our team combines creativity, attention to detail, and
+      professional care to create experiences that help every
+      client feel confident and appreciated.
+    </p>
+
+    <ul class="marks">
+      <li>Professional Care</li>
+      <li>Creative Excellence</li>
+      <li>Personalized Experience</li>
+    </ul>
+  </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+
+  <div class="head reveal">
+    <span class="eyebrow">WHAT WE OFFER</span>
+    <h2>Our Signature Experiences</h2>
+    <p>Every service is thoughtfully tailored to your style and personality.</p>
+  </div>
+
+  <!-- EDIT SERVICES, PRICES, DESCRIPTIONS AND PHOTOS HERE -->
+
+  <div class="cards">
+
+    <article class="card reveal">
+      <div class="service-photo">
+        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=85" alt="Hair styling" loading="lazy">
+      </div>
+      <div class="card-content">
+        <i>✦</i>
+        <h3>Hair Styling</h3>
+        <p>Cuts, blow-dries and occasion styles shaped to your features.</p>
+        <small>Price: Contact us</small>
+        <a href="#contact" data-service="Hair Styling">Book this service ↗</a>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="service-photo">
+        <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=900&q=85" alt="Hair treatment" loading="lazy">
+      </div>
+      <div class="card-content">
+        <i>◈</i>
+        <h3>Hair Treatment</h3>
+        <p>Deep conditioning and nourishing treatments for beautiful hair.</p>
+        <small>Price: Contact us</small>
+        <a href="#contact" data-service="Hair Treatment">Book this service ↗</a>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="service-photo">
+        <img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=900&q=85" alt="Hair colour inspiration" loading="lazy">
+      </div>
+      <div class="card-content">
+        <i>❖</i>
+        <h3>Hair Coloring</h3>
+        <p>Custom colour, from soft natural tones to bold statements.</p>
+        <small>Price: Contact us</small>
+        <a href="#contact" data-service="Hair Coloring">Book this service ↗</a>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="service-photo">
+        <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=85" alt="Braided hairstyle inspiration" loading="lazy">
+      </div>
+      <div class="card-content">
+        <i>❀</i>
+        <h3>Braiding & Extensions</h3>
+        <p>Protective braids and extensions, carefully styled and finished.</p>
+        <small>Price: Contact us</small>
+        <a href="#contact" data-service="Braiding & Extensions">Book this service ↗</a>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="service-photo">
+        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=85" alt="Manicure and nail artistry" loading="lazy">
+      </div>
+      <div class="card-content">
+        <i>♡</i>
+        <h3>Manicure & Pedicure</h3>
+        <p>Careful nail care and polished artistry for every occasion.</p>
+        <small>Price: Contact us</small>
+        <a href="#contact" data-service="Manicure & Pedicure">Book this service ↗</a>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="service-photo">
+        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=85" alt="Professional makeup look" loading="lazy">
+      </div>
+      <div class="card-content">
+        <i>◇</i>
+        <h3>Makeup Artistry</h3>
+        <p>Beautiful looks for everyday moments, events and photography.</p>
+        <small>Price: Contact us</small>
+        <a href="#contact" data-service="Makeup Artistry">Book this service ↗</a>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="service-photo">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=85" alt="Facial skincare treatment" loading="lazy">
+      </div>
+      <div class="card-content">
+        <i>✧</i>
+        <h3>Facial Treatments</h3>
+        <p>Relaxing cleansing and hydrating facial experiences.</p>
+        <small>Price: Contact us</small>
+        <a href="#contact" data-service="Facial Treatments">Book this service ↗</a>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="service-photo">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85" alt="Bridal beauty inspiration" loading="lazy">
+      </div>
+      <div class="card-content">
+        <i>❦</i>
+        <h3>Bridal Beauty</h3>
+        <p>Thoughtful hair and makeup preparation for your wedding day.</p>
+        <small>Price: Contact us</small>
+        <a href="#contact" data-service="Bridal Beauty">Book this service ↗</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- ================= GALLERY ================= -->
+<section class="gallery" id="gallery">
+
+  <div class="head reveal">
+    <span class="eyebrow">OUR PORTFOLIO</span>
+    <h2>Beauty in Every Detail</h2>
+    <p>Explore beauty, creativity and inspiration.</p>
+  </div>
+
+  <!-- Replace these image URLs directly in HTML -->
+
+  <div class="grid">
+
+    <button class="gallery-item" data-caption="Hair styling">
+      <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85" alt="Hair styling" loading="lazy">
+    </button>
+
+    <button class="gallery-item" data-caption="Beauty and makeup">
+      <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1000&q=85" alt="Beauty makeup" loading="lazy">
+    </button>
+
+    <button class="gallery-item" data-caption="Salon experience">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85" alt="Salon interior" loading="lazy">
+    </button>
+     <button class="gallery-item" data-caption="interior">
+    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800"
+     alt="Portrait of a man" loading= "lazy"
+     class="man-photo">
+     </button>
+    <button class="gallery-item" data-caption="Hair and beauty">
+      <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85" alt="Hair beauty" loading="lazy">
+    </button>
+
+    <button class="gallery-item" data-caption="Nail artistry">
+      <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=85" alt="Nail artistry" loading="lazy">
+    </button>
+
+    <button class="gallery-item" data-caption="Skincare">
+      <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85" alt="Skincare treatment" loading="lazy">
+    </button>
+
+    <button class="gallery-item" data-caption="Professional beauty">
+      <img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=1000&q=85" alt="Professional beauty" loading="lazy">
+    </button>
+
+    <button class="gallery-item" data-caption="Bridal inspiration">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85" alt="Bridal inspiration" loading="lazy">
+    </button>
+
+  </div>
+</section>
+
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="why">
+
+  <div class="head reveal">
+    <span class="eyebrow">THE DIFFERENCE</span>
+    <h2>Why Choose Lumière</h2>
+  </div>
+
+  <ul class="whygrid">
+    <li class="reveal"><b>✦</b><h3>Experienced Professionals</h3><p>Skilled beauty professionals who care about the details.</p></li>
+    <li class="reveal"><b>◈</b><h3>Personal Consultations</h3><p>We listen to your preferences before we begin.</p></li>
+    <li class="reveal"><b>❖</b><h3>Attention to Detail</h3><p>Every finishing touch receives our full attention.</p></li>
+    <li class="reveal"><b>♡</b><h3>Welcoming Environment</h3><p>A warm, calm and comfortable atmosphere.</p></li>
+    <li class="reveal"><b>◇</b><h3>Quality Products</h3><p>Carefully selected professional beauty products.</p></li>
+    <li class="reveal"><b>❀</b><h3>Comfortable Experience</h3><p>Take a moment to relax and enjoy your visit.</p></li>
+  </ul>
+
+</section>
+
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testi">
+
+  <span class="eyebrow"><h2>CLIENT EXPERIENCES</h2></span>
+
+  <!-- Replace with genuine client reviews after receiving permission -->
+
+  <div class="car">
+    <button id="prev" aria-label="Previous testimonial">‹</button>
+
+    <div class="quote-window" aria-live="polite">
+      <blockquote class="quote">
+        “A beautiful experience from beginning to end.”
+        <cite>Client Name</cite>
+      </blockquote>
+
+      <blockquote class="quote">
+        “The attention to detail made my visit special.”
+        <cite>Client Name</cite>
+      </blockquote>
+
+      <blockquote class="quote">
+        “I loved the welcoming atmosphere and professional care.”
+        <cite>Client Name</cite>
+      </blockquote>
+    </div>
+
+    <button id="next" aria-label="Next testimonial">›</button>
+  </div>
+
+</section>
+
+
+<!-- ================= STUDIO ================= -->
+<section class="studio split" id="studio">
+
+  <div class="photo tall reveal">
+    <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=1100&q=85" alt="Modern salon interior" loading="lazy">
+  </div>
+
+  <div class="reveal">
+    <span class="eyebrow">VISIT US</span>
+    <h2>Our Studio</h2>
+    <p>
+      A welcoming space designed for comfort, creativity and
+      exceptional beauty experiences.
+    </p>
+
+    <!-- EDIT YOUR REAL BUSINESS DETAILS HERE -->
+
+    <dl class="info">
+      <dt>Location</dt>
+      <dd>Replace with salon address</dd>
+
+      <dt>Hours</dt>
+      <dd>Monday–Saturday: 9:00–19:00</dd>
+
+      <dt>Phone</dt>
+      <dd>+250 000 000 000</dd>
+    </dl>
+     <h3>Find us here</h3>
+    <!-- Replace the iframe src with your Google Maps embed URL -->
+    
+<div class="map">
+    
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63821.00437604704!2d30.289648503270453!3d-1.2863861175327989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dbf2c7c0cb2445%3A0xb0e4bee373e55682!2sNyagatare!5e0!3m2!1sen!2srw!4v1793985678176!5m2!1sen!2srw"
+    title="Lumière Beauty Studio location map"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+</section>
+
+
+<!-- ================= CONTACT & BOOKING ================= -->
+<section class="contact" id="contact">
+
+  <div class="contact-copy reveal">
+    <span class="eyebrow">LET'S CONNECT</span>
+    <h2>Your Next Beauty Experience Starts Here.</h2>
+
+    <p>Contact our team to ask questions or arrange your appointment.</p>
+
+    <!-- EDIT PHONE NUMBERS AND SOCIAL LINKS HERE -->
+
+    <a class="btn btn-gold" id="wa"
+      href="https://wa.me/250791804394"
+      target="_blank" rel="noopener">
+      Book on WhatsApp
+    </a>
+
+    <ul class="links">
+      <li><a href="tel:+250000000000">Call: +250 000 000 000</a></li>
+      <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+    </ul>
+
+    <p>Replace with your salon address.</p>
+    <p>Monday–Saturday: 9:00–19:00</p>
+  </div>
+
+
+  <!-- This form prepares an inquiry in WhatsApp. It does not confirm bookings. -->
+
+  <form id="form" class="reveal">
+
+    <h3>Appointment Inquiry</h3>
+
+    <label>
+      Your Name
+      <input name="name" required autocomplete="name">
+      <small></small>
+    </label>
+
+    <label>
+      Phone Number
+      <input name="phone" type="tel" required autocomplete="tel">
+      <small></small>
+    </label>
+
+    <label>
+      Desired Service
+      <select name="service" required>
+        <option value="">Choose a service</option>
+        <option>Hair Styling</option>
+        <option>Hair Treatment</option>
+        <option>Hair Coloring</option>
+        <option>Braiding & Extensions</option>
+        <option>Manicure & Pedicure</option>
+        <option>Makeup Artistry</option>
+        <option>Facial Treatments</option>
+        <option>Bridal Beauty</option>
+      </select>
+      <small></small>
+    </label>
+
+    <label>
+      Preferred Date
+      <input name="date" type="date" required>
+      <small></small>
+    </label>
+
+    <label>
+      Additional Message
+      <textarea name="msg" rows="4" placeholder="Tell us anything else we should know..."></textarea>
+    </label>
+
+    <button class="btn btn-gold" type="submit">Send Inquiry</button>
+    <p id="status" role="status"></p>
+
+  </form>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+  <div>
+    <a class="logo" href="#home">LUMIÈRE</a>
+    <p>Luxury beauty, shaped around you.</p>
+  </div>
+
+  <nav aria-label="Footer navigation">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#studio">Our Studio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div>
+    <p>+250 000 000 000</p>
+    <p>
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      ·
+      <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+    </p>
+  </div>
+
+  <small>© <span id="yr"></span> Lumière Beauty Studio. All rights reserved.</small>
+
+</footer>
+
+
+<!-- ================= IMAGE LIGHTBOX ================= -->
+<dialog id="lb" aria-label="Image viewer">
+  <button id="lbx" aria-label="Close image viewer">×</button>
+  <img id="lbimg" src="" alt="">
+  <p id="lbcap"></p>
+</dialog>
+
+</body>
+</html>
